@@ -1,4 +1,4 @@
-name: Regression End-to-end tests
+name: Parallel End-to-end tests
 on: push
 jobs:
   Add-To-Cart-Flow:
@@ -14,7 +14,7 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           command: npm run test:addToCart
-    Register-Flow:
+  Register-Flow:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
