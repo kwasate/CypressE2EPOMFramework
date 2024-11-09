@@ -1,4 +1,4 @@
-name: Regression End-to-end tests
+name: Customized End-to-end testing
 on: push
 jobs:
   cypress-run:
